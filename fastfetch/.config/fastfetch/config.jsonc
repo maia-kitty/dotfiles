@@ -1,0 +1,38 @@
+{
+    "logo": {
+        "source": "${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch/cachyos_logo.txt",
+        "color": {
+            "1": "white"
+        }
+    },
+    "display": {
+        "separator": "  ",
+        "color": {
+            "keys": "#a0a0a0"
+        },
+        "size": {
+            "ndigits": 0,
+            "maxPrefix": "MB"
+        },
+        "key": {
+            "type": "icon"
+        }
+    },
+    "modules": [
+        "os",
+        "kernel",
+        {
+            "type": "board",
+            "format": "{1}"
+        },
+        "cpu",
+        {
+            "type": "gpu",
+            "hideType": "integrated",
+            "format": "{1} {2}"
+        },
+        "memory",
+        "packages",
+        "uptime"
+    ]
+}
