@@ -130,7 +130,7 @@ keymap = [
 	{ on = [ "g", "d" ],       run = "cd ~/Downloads",   desc = "Go ~/Downloads" },
 	{ on = [ "g", "<Space>" ], run = "cd --interactive", desc = "Jump interactively" },
 	{ on = [ "g", "f" ],       run = "follow",           desc = "Follow hovered symlink" },
-  { on = [ "g", "s"],        run = "cd /mnt/shared",   desc = "Go to Shared drive" },
+  { on = [ "g", "s"],        run = "cd /mnt/shared",   desc = "Go to Storage drive" }, #i just renamed it and couldnt bother renaming the mount point so.. also why are u even reading this who are u?
   { on = [ "g", "w"],        run = "cd /mnt/windows",  desc = "Go to Windows drive"},
 	# Tabs
 	{ on = [ "t", "t" ], run = "tab_create --current",     desc = "Create a new tab in CWD" },
