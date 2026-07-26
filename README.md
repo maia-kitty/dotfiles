@@ -21,7 +21,7 @@ cd ~/dotfiles
 | Bar/Shell | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) |
 | Shell | [fish](https://fishshell.com/) |
 | Terminal | [kitty](https://sw.kovidgoyal.net/kitty/) |
-| Editor | [Neovim](https://neovim.io/) (CLI) / [Zed](https://zed.dev/) (GUI) |
+| Editor | [Neovim](https://neovim.io/) ([LazyVim](https://www.lazyvim.org/), CLI) / [Zed](https://zed.dev/) (GUI) |
 | Files | [Yazi](https://yazi-rs.github.io/) (CLI) / [Thunar](https://docs.xfce.org/xfce/thunar/start) (GUI) |
 | Browser | [Zen](https://zen-browser.app/) |
 
