@@ -37,7 +37,6 @@ config-notification {
     position x=1280 y=0
 }
 
-
 gestures {
     hot-corners {
         off
@@ -186,9 +185,15 @@ overview {
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 // This line starts waybar, a commonly used bar for Wayland compositors.
+
+spawn-at-startup "dms" "run"
+
 environment {
   XDG_CURRENT_DESKTOP "niri"
   QT_QPA_PLATFORMTHEME "qt6ct"
+  QT_QPA_PLATFORMTHEME_QT6 "qt6ct"
+  XCURSOR_SIZE "24"
+  XCURSOR_THEME "Bibata-Modern-Classic"
 }
 hotkey-overlay {
     skip-at-startup
@@ -280,7 +285,8 @@ window-rule {
     open-floating true
 }
 debug {
-    honor-xdg-activation-with-invalid-serial
+   disable-direct-scanout 
+   honor-xdg-activation-with-invalid-serial
 }
 
 // Override to disable super+tab
@@ -300,9 +306,4 @@ include optional=true "dms/alttab.kdl"
 include optional=true "dms/binds.kdl"
 include optional=true "dms/outputs.kdl"
 include optional=true "dms/cursor.kdl"
-
-// Shell Switcher - Auto-generated include
-include "shell-switcher-startup.kdl"
-
-// Shell Switcher - Auto-generated include
-include "shell-switcher-binds.kdl"
+include "dms/windowrules.kdl"

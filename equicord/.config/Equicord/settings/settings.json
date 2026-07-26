@@ -1095,7 +1095,7 @@
             "notifyOnNewExcludedQuests": false,
             "notifyOnNewQuests": true,
             "questButtonIndicator": "both",
-            "questButtonBadgeCount": 10,
+            "questButtonBadgeCount": 11,
             "questButtonBadgeColor": 2842239,
             "questButtonLeftClickAction": "open-quests",
             "questButtonMiddleClickAction": "plugin-settings",
@@ -1574,7 +1574,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1784745706196
+        "settingsSyncVersion": 1784913503145
     },
     "ignoreResetWarning": false,
     "userCssVars": {},

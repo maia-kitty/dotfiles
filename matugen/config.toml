@@ -1,0 +1,9 @@
+[config]
+[templates.Obsidian]
+input_path = '~/.config/matugen/templates/obsidian-minimal-matugen-colors.css'
+output_path = '~/Documents/the-vault/.obsidian/snippets/obsidian-material3.css'
+
+[templates.Keyguard]
+input_path = '~/.config/matugen/templates/keyguard-dummy.txt'
+output_path = '~/.config/matugen/keyguard-dummy.txt'
+post_hook = 'python3 ~/.config/matugen/scripts/keyguard-color.py "{{colors.primary.default.hex}}"'

@@ -1,0 +1,14 @@
+{
+  "dankKDEConnect": {
+    "enabled": true,
+    "selectedDeviceId": "2495beafcaa34ddf8b90e9ed34b28710",
+    "deviceImageMap": "{\"2495beafcaa34ddf8b90e9ed34b28710\":\"file:///home/martin/Pictures/nothingphone3apro.png\"}",
+    "deviceTypeMap": "{\"2495beafcaa34ddf8b90e9ed34b28710\":\"phone\"}"
+  },
+  "networkIndicator": {
+    "enabled": true
+  },
+  "dankPomodoroTimer": {
+    "enabled": true
+  }
+}
