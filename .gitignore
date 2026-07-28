@@ -5,6 +5,7 @@ niri/.config/niri/dms/cursor.kdl
 niri/.config/niri/dms/layout.kdl
 niri/.config/niri/dms/outputs.kdl
 niri/.config/niri/dms/wpblur.kdl
+niri/.config/niri/dms/windowrules.kdl
 DankMaterialShell/.config/DankMaterialShell/plugins/
 DankMaterialShell/.config/DankMaterialShell/firefox.css
 DankMaterialShell/.config/DankMaterialShell/zen.css
