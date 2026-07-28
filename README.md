@@ -22,7 +22,7 @@ cd ~/dotfiles
 | Shell | [fish](https://fishshell.com/) |
 | Terminal | [kitty](https://sw.kovidgoyal.net/kitty/) |
 | Editor | [Neovim](https://neovim.io/) ([LazyVim](https://www.lazyvim.org/), CLI) / [Zed](https://zed.dev/) (GUI) |
-| Files | [Yazi](https://yazi-rs.github.io/) (CLI) / [Thunar](https://docs.xfce.org/xfce/thunar/start) (GUI) |
+| Files | [Yazi](https://yazi-rs.github.io/) (CLI) / [Nemo](https://github.com/linuxmint/nemo) (GUI) |
 | Browser | [Zen](https://zen-browser.app/) |
 
 **Additional**
