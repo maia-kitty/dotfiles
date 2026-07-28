@@ -7,8 +7,9 @@ binds {
     // === Application Launchers ===
     Mod+T hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
     Mod+Space hotkey-overlay-title="Application Launcher" {
-        spawn "dms" "ipc" "call" "spotlight" "toggle";
-    }
+        spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+    Mod+Z hotkey-overlay-title="Open Zen Browser" { spawn "zen-browser"; }
+    
     Alt+Space hotkey-overlay-title="Spotlight Bar" {
         spawn "dms" "ipc" "call" "spotlight-bar" "toggle";
     }
