@@ -1,0 +1,16 @@
+# DMS auto-generated configs 
+niri/.config/niri/dms/alttab.kdl
+niri/.config/niri/dms/colors.kdl
+niri/.config/niri/dms/cursor.kdl
+niri/.config/niri/dms/layout.kdl
+niri/.config/niri/dms/outputs.kdl
+niri/.config/niri/dms/wpblur.kdl
+DankMaterialShell/.config/DankMaterialShell/plugins/
+DankMaterialShell/.config/DankMaterialShell/firefox.css
+DankMaterialShell/.config/DankMaterialShell/zen.css
+
+# OpenRGB
+OpenRGB/.config/OpenRGB/logs/
+
+# Equicord
+equicord/.config/Equicord/equicord.asar
