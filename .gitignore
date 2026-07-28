@@ -9,6 +9,9 @@ niri/.config/niri/dms/windowrules.kdl
 DankMaterialShell/.config/DankMaterialShell/plugins/
 DankMaterialShell/.config/DankMaterialShell/firefox.css
 DankMaterialShell/.config/DankMaterialShell/zen.css
+kitty/.config/kitty/dank-tabs.conf
+kitty/.config/kitty/dank-theme.conf
+nvim/.config/nvim/colors/dms.lua
 
 # OpenRGB
 OpenRGB/.config/OpenRGB/logs/
