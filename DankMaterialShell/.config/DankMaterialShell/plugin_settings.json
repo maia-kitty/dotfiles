@@ -10,5 +10,22 @@
   },
   "dankPomodoroTimer": {
     "enabled": true
+  },
+  "systemMonitorPlus": {
+    "enabled": false,
+    "cpuTempEnabled": false,
+    "ramUsageEnabled": true,
+    "gpuTempEnabled": false,
+    "diskPartitionUsageEnabled": true,
+    "networkSpeedEnabled": false,
+    "cpuUsageEnabled": true
+  },
+  "dnsSwitcher": {
+    "enabled": true,
+    "hiddenProviders": "[\"Google\",\"System Default\",\"OpenDNS\"]",
+    "customProviders": "[{\"name\":\"MullvadDns\",\"ip\":\" \\t194.242.2.4\",\"icon\":\"dns\"}]"
+  },
+  "resourceMonitor": {
+    "enabled": true
   }
 }

@@ -645,15 +645,17 @@
           "trayAutoOverflow": true,
           "trayMaxVisibleItems": 0
         },
-        "clipboard",
         {
-          "id": "networkIndicator",
+          "id": "resourceMonitor",
           "enabled": true
         },
-        "cpuUsage",
-        "memUsage",
+        "clipboard",
         "notificationButton",
-        "controlCenterButton"
+        "controlCenterButton",
+        {
+          "id": "dnsSwitcher",
+          "enabled": true
+        }
       ],
       "spacing": 4,
       "innerPadding": 4,
@@ -675,7 +677,8 @@
       "openOnOverview": false,
       "visible": true,
       "popupGapsAuto": true,
-      "popupGapsManual": 4
+      "popupGapsManual": 4,
+      "widgetPadding": 8
     },
     {
       "id": "bar1784816870214",
@@ -701,7 +704,7 @@
       "spacing": 4,
       "innerPadding": 4,
       "bottomGap": 0,
-      "transparency": 1,
+      "transparency": 0.55,
       "widgetTransparency": 1,
       "squareCorners": false,
       "noBackground": false,
