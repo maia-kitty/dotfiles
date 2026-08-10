@@ -29,7 +29,7 @@
         {
             "type": "gpu",
             "hideType": "integrated",
-            "format": "{1} {2}"
+            "format": "{2}"
         },
         "memory",
         "packages",

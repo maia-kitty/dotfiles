@@ -30,7 +30,7 @@ cd ~/dotfiles
 | | |
 |---|---|
 | Video | [mpv](https://mpv.io/) |
-| Images | [qView](https://interversehq.com/qview/) |
+| Images | [imv](https://sr.ht/~exec64/imv/) |
 | RGB | [OpenRGB](https://openrgb.org/) |
 | Notes | [Obsidian](https://obsidian.md/) |
 | Office | [LibreOffice](https://www.libreoffice.org/) |

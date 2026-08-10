@@ -6,5 +6,5 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 #    # smth smth
 #end
 
-# opencode
-fish_add_path /home/martin/.opencode/bin
+alias ssh="kitty +kitten ssh"
+set -gx DMS_PRIVESC sudo

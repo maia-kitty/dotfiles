@@ -141,17 +141,22 @@
       "width": 50
     },
     {
-      "id": "builtin_tailscale",
-      "enabled": true,
-      "width": 50
-    },
-    {
       "id": "darkMode",
       "enabled": true,
       "width": 50
     },
     {
       "id": "doNotDisturb",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "plugin_netbirdStatus",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "builtin_vpn",
       "enabled": true,
       "width": 50
     }
@@ -205,7 +210,10 @@
   "audioScrollMode": "volume",
   "audioWheelScrollAmount": 5,
   "audioDeviceScrollVolumeEnabled": false,
-  "mediaExcludePlayers": [],
+  "mediaExcludePlayers": [
+    "zen",
+    "org.kde.kdeconnect.app"
+  ],
   "clockCompactMode": false,
   "focusedWindowCompactMode": false,
   "focusedWindowSize": 1,
@@ -267,7 +275,7 @@
   "greeterLockDateFormat": "",
   "greeterFontFamily": "",
   "greeterWallpaperFillMode": "",
-  "greeterPamExternallyManaged": false,
+  "greeterPamExternallyManaged": true,
   "greeterSyncPending": false,
   "greeterSyncBaseline": {},
   "mediaSize": 1,
@@ -409,15 +417,6 @@
   "fadeToDpmsEnabled": true,
   "fadeToDpmsGracePeriod": 5,
   "launchPrefix": "",
-  "brightnessDevicePins": {},
-  "wifiNetworkPins": {},
-  "bluetoothDevicePins": {},
-  "audioInputDevicePins": {},
-  "audioOutputDevicePins": {
-    "preferredOutput": [
-      "alsa_output.pci-0000_13_00.6.analog-stereo"
-    ]
-  },
   "gtkThemingEnabled": false,
   "qtThemingEnabled": false,
   "syncModeWithPortal": true,
@@ -589,6 +588,16 @@
     ],
     "wallpaper": [
       "all"
+    ],
+    "lockScreen": [
+      {
+        "name": "DP-1",
+        "model": "MSI MAG275R"
+      },
+      {
+        "name": "HDMI-A-1",
+        "model": "MSI MP243X"
+      }
     ]
   },
   "showOnLastDisplay": {
@@ -633,6 +642,10 @@
         "weather",
         {
           "id": "dankKDEConnect",
+          "enabled": true
+        },
+        {
+          "id": "homeAssistantMonitor",
           "enabled": true
         }
       ],
@@ -923,5 +936,5 @@
   "barInsetPaddingShared": -1,
   "barInsetPaddingSyncAll": false,
   "frameBarInsetPadding": -1,
-  "configVersion": 12
+  "configVersion": 13
 }
