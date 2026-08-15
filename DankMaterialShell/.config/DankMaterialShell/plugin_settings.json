@@ -32,7 +32,7 @@
     "enabled": true,
     "hassUrl": "***REMOVED***",
     "hassToken": "***REMOVED***",
-    "haRefreshCounter": 14,
+    "haRefreshCounter": 16,
     "hassTokenPath": "/run/secrets/hass_token"
   },
   "netbirdStatus": {

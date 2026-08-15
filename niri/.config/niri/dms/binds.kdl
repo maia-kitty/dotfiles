@@ -95,22 +95,18 @@ binds {
     Mod+Up    { focus-workspace-up; }
     Mod+WheelScrollDown cooldown-ms=150 { focus-workspace-down; }
     Mod+WheelScrollUp   cooldown-ms=150 { focus-workspace-up; }
-    Mod+MouseBack    { focus-column-left; }
-    Mod+MouseForward { focus-column-right; }
+    Mod+MouseForward { focus-column-left; }
+    Mod+MouseBack { focus-column-right; }
 
     // === Move columns/windows (Ctrl+arrows / Ctrl+wheel ) ===
     Mod+Ctrl+Left  { move-column-left; }
     Mod+Ctrl+Right { move-column-right; }
     Mod+Ctrl+Down  { move-column-to-workspace-down; }
     Mod+Ctrl+Up    { move-column-to-workspace-up; }
-    Mod+Ctrl+MouseForward { move-column-right; }
-    Mod+Ctrl+MouseBack  { move-column-left; }
+    Mod+Ctrl+MouseBack { move-column-right; }
+    Mod+Ctrl+MouseForward  { move-column-left; }
     Mod+Ctrl+WheelScrollDown cooldown-ms=150 { move-column-to-workspace-down; }
     Mod+Ctrl+WheelScrollUp   cooldown-ms=150 { move-column-to-workspace-up; }
-    Mod+Shift+Down { move-window-down; }
-    Mod+Shift+Up   { move-window-up; }
-    // Mod+Shift+Left  { }  // free - nothing left in the move family needs this
-    // Mod+Shift+Right { }  // free - nothing left in the move family needs this
 
     // === Column Jump (first/last) ===
     Mod+Home { focus-column-first; }
@@ -119,11 +115,14 @@ binds {
     Mod+Ctrl+End  { move-column-to-last; }
 
     // === Move to Monitor ===
-    Mod+Shift+Ctrl+Left  { move-column-to-monitor-left; }
-    Mod+Shift+Ctrl+Right { move-column-to-monitor-right; }
-    Mod+Shift+Ctrl+Down  { move-column-to-monitor-down; }
-    Mod+Shift+Ctrl+Up    { move-column-to-monitor-up; }
-
+    Mod+Shift+Left  { move-column-to-monitor-left; }
+    Mod+Shift+Right { move-column-to-monitor-right; }
+    Mod+Shift+Down  { move-column-to-monitor-down; }
+    Mod+Shift+Up    { move-column-to-monitor-up; }
+    Mod+Shift+MouseForward  { move-column-to-monitor-left; }
+    Mod+Shift+MouseBack { move-column-to-monitor-right; }
+    Mod+Shift+WheelScrollDown  { move-column-to-monitor-down; }
+    Mod+Shift+WheelScrollUp    { move-column-to-monitor-up; }
     // === Workspace Management ===
     Ctrl+Shift+R hotkey-overlay-title="Rename Workspace" {
         spawn "dms" "ipc" "call" "workspace-rename" "open";
