@@ -10,9 +10,6 @@ binds {
         spawn "dms" "ipc" "call" "spotlight" "toggle"; }
     Mod+Z hotkey-overlay-title="Open Zen Browser" { spawn "zen-browser"; }
 
-    Alt+Space hotkey-overlay-title="Spotlight Bar" {
-        spawn "dms" "ipc" "call" "spotlight-bar" "toggle";
-    }
     Mod+V hotkey-overlay-title="Clipboard Manager" {
         spawn "dms" "ipc" "call" "clipboard" "toggle";
     }
@@ -20,7 +17,7 @@ binds {
         spawn "dms" "ipc" "call" "processlist" "focusOrToggle";
     }
 
-    Super+X hotkey-overlay-title="Power Menu: Toggle" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
+    Mod+X hotkey-overlay-title="Power Menu: Toggle" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
     Mod+Comma hotkey-overlay-title="Settings" {
         spawn "dms" "ipc" "call" "settings" "focusOrToggle";
     }
@@ -129,9 +126,9 @@ binds {
     }
 
     // === Column Management ===
-    Mod+BracketLeft  { consume-or-expel-window-left; }
-    Mod+BracketRight { consume-or-expel-window-right; }
-    Mod+Period { expel-window-from-column; }
+    Mod+J  { consume-or-expel-window-left; }
+    Mod+L { consume-or-expel-window-right; }
+    Mod+K { expel-window-from-column; }
 
     // === Sizing & Layout ===
     Mod+R { switch-preset-column-width; }

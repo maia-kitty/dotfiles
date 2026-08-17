@@ -7,3 +7,13 @@ output_path = '~/Documents/the-vault/.obsidian/snippets/obsidian-material3.css'
 input_path = '~/.config/matugen/templates/keyguard-dummy.txt'
 output_path = '~/.config/matugen/keyguard-dummy.txt'
 post_hook = 'python3 ~/.config/matugen/scripts/keyguard-color.py "{{colors.primary.default.hex}}"'
+
+[templates.btop]
+input_path = '~/.config/matugen/templates/btop.theme'
+output_path = '~/.config/btop/themes/matugen.theme'
+post_hook = 'pkill -USR2 btop || true'
+
+[templates.cava]
+input_path = '~/.config/matugen/templates/cava.theme'
+output_path = '~/.config/cava/themes/matugen'
+post_hook = 'pkill -USR1 cava || true'
